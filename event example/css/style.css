@@ -1,0 +1,79 @@
+html {
+    font-family: serif;
+    color: #f9f7db;
+    background-color: #000000;
+}
+
+body {
+    width: 980px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1px 50px;
+    background-image: linear-gradient(to right,black 0px, rgba(255,255,255,0.3) 30px,rgba(255,255,255,0.3)  950px,black 980px);
+}
+
+/* ヘッダ */
+body .pagetitle {
+    text-align: center;
+    margin: 50px 0 70px;
+}
+
+.apply {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.apply a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f9f7db;
+    background-color: #058ba9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,#92cddb,#058ba9);
+    border: 1px solid #058ba9;
+    box-shadow: 1px 1px 0 #9ddded inset;
+    text-shadow: 0px -1px 0 #333333;
+    display: inline-block;
+}
+
+.apply a:hover {
+    opacity: 0.7;
+}
+
+/* メイン */
+body main {
+    border-bottom: 1px dotted #f9f7db;
+    padding-bottom: 20px;
+}
+
+.content .contenttitle {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #f9f7db;
+}
+
+.content img {
+    vertical-align: bottom;
+    display: block;
+}
+
+.buy a {
+    color: #f9f7db;
+}
+
+.buy a:hover {
+    opacity: 0.7;
+}
+
+/* フッタ */
+footer {
+    margin-top: 50px;
+}
+
+#copyright {
+    font-size: 12px;
+}
